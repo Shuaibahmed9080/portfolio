@@ -732,6 +732,28 @@ span {
     .home-content h1 {
         font-size: 5rem;
     }
+    .portfolio-layer p{
+        display: none;
+    }
+    .portfolio-layer h4 {
+        font-size: 10px;
+    }
+    
+    .portfolio-layer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        background-color: var(--text-color);
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .portfolio-layer a i {
+        font-size: 1rem;
+        color: var(--snd-bf-color);
+        /* margin-top: 15px; */
+    }
 }
 
 @media (max-width: 480px) {
@@ -766,6 +788,28 @@ span {
 
     .portfolio-container {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .portfolio-layer h4 {
+        font-size: 9px;
+    }
+    .portfolio-layer p{
+        display: none;
+    }
+    
+    .portfolio-layer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 3rem;
+        background-color: var(--text-color);
+        border-radius: 50%;
+        margin-top: 15px;
+    }
+    .portfolio-layer a i {
+        font-size: 1rem;
+        color: var(--snd-bf-color);
+        /* margin-top: 15px; */
     }
 
     .skilll-main {
